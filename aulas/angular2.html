@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="MyApp"> <!-- inicia uma aplicação AngularJS -->
+<head>
+    <script src="../../js/angular.min.js"></script>
+    <script src="js/MyApp.js"></script>
+</head>
+<body>
+
+    <input type="text" ng-model="valor" />
+    <input type="checkbox" ng-model="checado"> Show
+    <!-- diretica ng-show e ng-hide para exibir ou ocultar um elemento -->
+    <div ng-show="checado">
+        Ola {{valor}}!
+    </div>
+    <div ng-hide="checado">
+        Ola Hide!
+    </div>
+
+</body>
+</html>

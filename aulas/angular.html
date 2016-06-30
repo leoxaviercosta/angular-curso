@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="MyApp"> <!-- inicia uma aplicação AngularJS -->
+<head>
+    <script src="../../js/angular.min.js"></script>
+    <script src="js/MyApp.js"></script>
+    <script src="js/Controllers/MyAppController.js"></script>
+</head>
+<body>
+
+    <div ng-controller="CtrlApp"> <!-- Define o controller para essa div -->
+        <input type="text" ng-model="nome" />
+        <h1>{{ nome }} - {{ idade }}, {{ cidade }}</h1>
+    </div>
+
+</body>
+</html>

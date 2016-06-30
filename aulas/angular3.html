@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="MyApp"> <!-- inicia uma aplicação AngularJS -->
+<head>
+    <meta charset="UTF-8">
+    <script src="../../js/angular.min.js"></script>
+    <script src="js/MyApp.js"></script>
+    <script src="js/Controllers/MyAppController.js"></script>
+</head>
+<body>
+    <input type="search" ng-model="busca" placeholder="Buscar">
+    <div ng-controller="CtrlLista">
+        <div> Total: <b>{{ pessoas.length }}</b></div>
+
+        <ul>
+            <!-- lista de repetição de um objeto com filtro pelo elemento 'busca' acima -->
+            <li ng-repeat="pessoa in pessoas | filter:busca">
+                {{ pessoa.nome }}, <b>{{ pessoa.cidade }}</b>
+                <!-- ng-click captura o evento de clique do elemento, passando '$index' como parâmetro, automaticamente pega a chave do registro -->
+                <button ng-click="remover($index)">Remover</button>
+            </li>
+        </ul>
+
+        <div>
+            Nome: <input type="text" ng-model="vNome"> <br>
+            Cidade: <input type="text" ng-model="vCidade"> <br><br>
+            <!-- ng-click captura o evento de clique do elemento -->
+            <button ng-click="adicionar()">Adicionar a Lista</button>
+        </div>
+    </div>
+
+</body>
+</html>
