@@ -28,8 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aplicacao/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31641287" vertical-offset="0" max-vertical-offset="1428">
-              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+            <state vertical-scroll-proportion="0.5465313" vertical-offset="0" max-vertical-offset="1428">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#53#98#0#PHP" expanded="true" />
                 <marker date="1467250577330" expanded="true" signature="605:657" placeholder="insert into ..." />
@@ -609,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacao/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31641287" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.5465313" vertical-offset="0" max-vertical-offset="1428">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#53#98#0#PHP" expanded="true" />
             <marker date="1467250577330" expanded="true" signature="605:657" placeholder="insert into ..." />
